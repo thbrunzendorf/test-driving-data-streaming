@@ -1,0 +1,8 @@
+Paris,21
+London,15
+Berlin,19
+London,18
+Paris,32
+Stockholm,7
+Reykjavik,-2
+Berlin,11

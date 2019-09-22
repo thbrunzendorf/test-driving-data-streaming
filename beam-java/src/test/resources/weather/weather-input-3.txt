@@ -1,0 +1,8 @@
+Copenhagen,11
+London,22
+Stockholm,13
+Brussels,17
+Madrid,33
+Paris,19
+Rome,30
+Reykjavik,-4

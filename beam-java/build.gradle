@@ -1,0 +1,31 @@
+plugins {
+    id 'java'
+    id "com.github.johnrengelman.shadow" version "5.1.0"
+}
+
+group 'de.thbrunzendorf'
+version '1.0-SNAPSHOT'
+
+sourceCompatibility = 1.8
+
+shadowJar {
+    mergeServiceFiles()
+}
+
+repositories {
+    mavenCentral()
+}
+
+ext {
+    beamVersion = '2.15.0'
+    hamcrestVersion = '2.1'
+}
+
+dependencies {
+    implementation "org.apache.beam:beam-sdks-java-core:$beamVersion"
+    implementation "org.apache.beam:beam-runners-flink-1.8:$beamVersion"
+    implementation "org.apache.beam:beam-runners-direct-java:$beamVersion"
+    testImplementation "org.hamcrest:hamcrest:$hamcrestVersion"
+    testImplementation "org.hamcrest:hamcrest-core:$hamcrestVersion"
+    testImplementation "org.junit.vintage:junit-vintage-engine:5.5.1"
+}

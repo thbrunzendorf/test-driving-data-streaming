@@ -1,0 +1,8 @@
+London,8
+Prague,22
+Amsterdam,24
+Paris,29
+London,19
+Stockholm,14
+Prague,23
+Rome,34
