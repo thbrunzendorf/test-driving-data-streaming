@@ -17,7 +17,7 @@ repositories {
 }
 
 ext {
-    beamVersion = '2.15.0'
+    beamVersion = '2.18.0'
     hamcrestVersion = '2.1'
 }
 
